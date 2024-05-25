@@ -3,7 +3,7 @@ import { expect, test } from "@playwright/test";
 import { AllPages } from "../pages/allpages";
 
 // Co testuju
-test.describe("Login functionality", () => {
+test.describe("Rezervace pokoje na hlavní stránce", () => {
   let pages: AllPages;
 
   test.beforeEach(async ({ page }) => {
