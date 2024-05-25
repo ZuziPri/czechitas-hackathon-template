@@ -20,7 +20,7 @@ test.describe("Rezervace pokoje na hlavní stránce přes sekci Our Rooms", () =
         //await expect(pages.homePage.pictureBudgetCabin).toBeVisible();
     //});
 
-  test.only("rezervace pokoje", async ({ page }) => {
+  test("EN - Vylistování dostupných pokojů vybraného hotelu - nezaregistrovaný uživatel", async ({ page }) => {
     await pages.homePage.buttonSelectHotel.click();
     await pages.homePage.dropBoxHotelOffer.click();
     await pages.homePage.buttonCheckInDate.click();
